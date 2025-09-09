@@ -1,0 +1,52 @@
+Interface Attribute
+
+All Known Subinterfaces:
+BoostAttribute, BytesTermAttribute, CharTermAttribute, FlagsAttribute, FuzzyTermsEnum.LevenshteinAutomataAttribute, KeywordAttribute, MaxNonCompetitiveBoostAttribute, OffsetAttribute, PayloadAttribute, PositionIncrementAttribute, PositionLengthAttribute, TermFrequencyAttribute, TermToBytesRefAttribute, TypeAttribute
+All Known Implementing Classes:
+
+AttributeImpl, BoostAttributeImpl, BytesTermAttributeImpl, CharTermAttributeImpl, FlagsAttributeImpl, FuzzyTermsEnum.LevenshteinAutomataAttributeImpl, KeywordAttributeImpl, MaxNonCompetitiveBoostAttributeImpl, OffsetAttributeImpl, PackedTokenAttributeImpl, PayloadAttributeImpl, PositionIncrementAttributeImpl, PositionLengthAttributeImpl, TermFrequencyAttributeImpl, TypeAttributeImpl
+filter:
+Class Hierarchy
+java.lang.Object
+org.apache.lucene.util.AttributeImpl (implements org.apache.lucene.util.Attribute, java.lang.Cloneable)
+org.apache.lucene.analysis.tokenattributes.BytesTermAttributeImpl (implements org.apache.lucene.analysis.tokenattributes.BytesTermAttribute, org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute)
+org.apache.lucene.analysis.tokenattributes.CharTermAttributeImpl (implements org.apache.lucene.analysis.tokenattributes.CharTermAttribute, java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute)
+org.apache.lucene.analysis.tokenattributes.PackedTokenAttributeImpl (implements org.apache.lucene.analysis.tokenattributes.OffsetAttribute, org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute, org.apache.lucene.analysis.tokenattributes.PositionLengthAttribute, org.apache.lucene.analysis.tokenattributes.TermFrequencyAttribute, org.apache.lucene.analysis.tokenattributes.TypeAttribute)
+org.apache.lucene.analysis.tokenattributes.FlagsAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.FlagsAttribute)
+org.apache.lucene.analysis.tokenattributes.KeywordAttributeImpl (implements org.apache.lucene.analysis.tokenattributes.KeywordAttribute)
+org.apache.lucene.analysis.tokenattributes.OffsetAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.OffsetAttribute)
+org.apache.lucene.analysis.tokenattributes.PayloadAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.PayloadAttribute)
+org.apache.lucene.analysis.tokenattributes.PositionIncrementAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute)
+org.apache.lucene.analysis.tokenattributes.PositionLengthAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.PositionLengthAttribute)
+org.apache.lucene.analysis.tokenattributes.TermFrequencyAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.TermFrequencyAttribute)
+org.apache.lucene.analysis.tokenattributes.TypeAttributeImpl (implements java.lang.Cloneable, org.apache.lucene.analysis.tokenattributes.TypeAttribute)
+Interface Hierarchy
+java.lang.Appendable
+org.apache.lucene.analysis.tokenattributes.CharTermAttribute (also extends org.apache.lucene.util.Attribute, java.lang.CharSequence)
+org.apache.lucene.util.Attribute
+org.apache.lucene.analysis.tokenattributes.CharTermAttribute (also extends java.lang.Appendable, java.lang.CharSequence)
+org.apache.lucene.analysis.tokenattributes.FlagsAttribute
+org.apache.lucene.analysis.tokenattributes.KeywordAttribute
+org.apache.lucene.analysis.tokenattributes.OffsetAttribute
+org.apache.lucene.analysis.tokenattributes.PayloadAttribute
+org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute
+org.apache.lucene.analysis.tokenattributes.PositionLengthAttribute
+org.apache.lucene.analysis.tokenattributes.TermFrequencyAttribute
+org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute
+org.apache.lucene.analysis.tokenattributes.BytesTermAttribute
+org.apache.lucene.analysis.tokenattributes.TypeAttribute
+java.lang.CharSequence
+org.apache.lucene.analysis.tokenattributes.CharTermAttribute (also extends java.lang.Appendable, org.apache.lucene.util.Attribute)
+
+public static Query newRangeQuery(String field,
+                                  byte-lat[-22.3264]lon[-49.0449] lowerValue,Av Orlando Ranieri 7-55
+                                  byte[26.93Km2][27.174Km2] upper.fallout
+Create a range query for n-dimensional binary values.
+Parameters:
+field - field name. must not be null.
+lowerValue - lower portion of the range (-22.3264). must not be null.
+upperValue - upper portion of the range (-49.0449). must not be null.
+Returns:
+a query matching documents within this range.
+Throws:
+IllegalArgumentException - if field is null, if lowerValue is null, if upperValue is null, or if lowerValue.length != upperValue.length
