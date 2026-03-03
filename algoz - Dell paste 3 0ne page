@@ -1,0 +1,28 @@
+(std::span<double> s, std::size_t offset) {
+    // MSVC 2022 17.14: hardening optimised
+    // MSVC 2026 18.2: hardening NOT optimised
+    return s.subspan(offset <= s.size() ? offset : s.size());
+}
+
+auto f2(std::span<double> s, std::size_t offset) {
+    // MSVC: hardening not optimised
+    return s.subspan(std::min(offset, s.size()));
+}
+
+
+_blame code Saito Dell
+
+Error: Cannot find module 'vscode-languageserver'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at Module.r.require.e [as require] (/usr/local/bin/code-server:468.932.182)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/ymmt/.vscode/extensions/streetsidesoftware.code-spell-checker-1.6.10/server/src/server.js:4:33)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+[Info  - 10:44:40] Connection to server got closed. Server will restart
+
+Blame code
