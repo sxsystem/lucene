@@ -1,0 +1,47 @@
+Error: Failed to install dependencies (/tmp/vscode-spell-checker/client): npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/convert-source-map-ecfad15d/package.json'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/package.json'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/replace-ext-f05c4354/package.json'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/convert-source-map-ecfad15d/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/.npmignore'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/replace-ext-f05c4354/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/micromatch-166acf69/package.json'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/expand-range-ad66c1ca/package.json'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/convert-source-map-ecfad15d/LICENSE'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/replace-ext-f05c4354/LICENSE'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/micromatch-166acf69/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/expand-range-ad66c1ca/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/convert-source-map-ecfad15d/index.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/LICENSE'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/replace-ext-f05c4354/index.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/tweetnacl-455d6096/nacl.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/ecc-jsbn-394d7e20/lib/LICENSE-jsbn'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/index.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/expand-range-ad66c1ca/LICENSE'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/ecc-jsbn-394d7e20/lib/ec.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/test.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/expand-range-ad66c1ca/index.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-parser-00d481aa/test/__snapshots__/index.test.js.snap'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/requires-port-86ab3bf2/.travis.yml'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/acorn-f738f1f8/src/identifier.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/asn1-cd2b0c82/lib/index.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/source-map-f5a904cc/dist/source-map.js'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/mocha-1bddda45/README.md'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/includes/foot.pug'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/includes/head.pug'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/includes/scripts.pug'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/includes/style.css'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/mixins/dialog.pug'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/examples/mixins/profile.pug'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/pug-742cdb93/test/__snapshots__/pug.test.js.snap'
+npm WARN tar ENOENT: no such file or directory, open '/tmp/vscode-spell-checker/client/node_modules/.staging/typescript-60ef5b36/lib/typescript.d.ts'
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/event-stream/-/event-stream-3.3.6.tgz
+npm ERR! 404 
+npm ERR! 404  'event-stream@3.3.6' is not in the npm registry.
+npm ERR! 404 Your package name is not valid, because 
+npm ERR! 404  1. name can only contain URL-friendly characters
+npm ERR! 404 It was specified as a dependency of 'code-spell-checker'
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
